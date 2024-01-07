@@ -1,6 +1,8 @@
 import React from 'react'
-import Container from './components/Container/Container';
 import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
+import Catalog from './components/Catalog/Catalog';
+import Footer from './components/Footer/Footer';
 
 
 export default function App() {
@@ -8,11 +10,9 @@ export default function App() {
     <>
       <Header className='header__container'/>
     <main>
-      <nav>
-        <Container className='navigation__container'/>
-      </nav>
-      <section></section>
-      <footer></footer>
+      <Navigation />
+      <Catalog />
+      <Footer />
     </main>
     </>
   );

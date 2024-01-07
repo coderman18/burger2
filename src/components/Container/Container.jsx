@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './Container.module.css'
-import classNames from 'classnames';
 
-export default function Container({children, className}) {
+
+export default function Container({children}) {
 
   return (
-    <div className={classNames(styles.container, className)}>
+    <div className={styles.container}>
       {children}
     </div>
   )
