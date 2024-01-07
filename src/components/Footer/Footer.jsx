@@ -3,12 +3,12 @@ import classNames from 'classnames'
 import styles from './Footer.module.css'
 
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     
   <footer className={styles.footer}>
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div className={styles.content}>    
         <img className={styles.logo} src="../../assets/img/logo-o.svg" alt="Логотип YourMeal" />
 
         <address className={styles.address}>
