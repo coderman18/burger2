@@ -4,9 +4,8 @@
   font-weight: 400;
   font-display: swap;
   src: local(''),
-    /* url('../fonts/nunito-v25-latin_cyrillic-regular.woff2') format('woff2'), */
-    url('../src/assets/fonts/nunito-v25-latin_cyrillic-regular.woff2'),
-    url('../src/assets/fonts/nunito-v25-latin_cyrillic-regular.woff') format('woff');
+    url('../fonts/nunito-v25-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/nunito-v25-latin_cyrillic-regular.woff') format('woff');
 }
 
 @font-face {
@@ -15,8 +14,8 @@
   font-weight: 600;
   font-display: swap;
   src: local(''),
-    url('../src/assets/fonts/nunito-v25-latin_cyrillic-600.woff2') format('woff2'),
-    url('../src/assets/fonts/nunito-v25-latin_cyrillic-600.woff') format('woff');
+    url('../fonts/nunito-v25-latin_cyrillic-600.woff2') format('woff2'),
+    url('../fonts/nunito-v25-latin_cyrillic-600.woff') format('woff');
 }
 
 @font-face {
@@ -25,8 +24,8 @@
   font-weight: 800;
   font-display: swap;
   src: local(''),
-    url('../src/assets/fonts/nunito-v25-latin_cyrillic-800.woff2') format('woff2'),
-    url('../src/assets/fonts/nunito-v25-latin_cyrillic-800.woff') format('woff');
+    url('../fonts/nunito-v25-latin_cyrillic-800.woff2') format('woff2'),
+    url('../fonts/nunito-v25-latin_cyrillic-800.woff') format('woff');
 }
 
 html {
@@ -45,7 +44,7 @@ body {
   font-family: Nunito, sans-serif;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #8b6767;
+  background-color: #F9F9F9;
   color: #000000;
   position: relative;
   overflow-x: hidden;
