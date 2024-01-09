@@ -4,8 +4,7 @@ import Container from '../Container/Container'
 import styles from './Catalog.module.css'
 
 import {goodsList} from '../../utils/goods'
-
-console.log(goodsList);
+import CatalogProduct from '../CatalogProduct/CatalogProduct'
 
 
 export default function Catalog() {
@@ -21,7 +20,7 @@ export default function Catalog() {
             <ul className={styles.list}>
               {goodsList.map(i => (
                 <li className={styles.item} key={i.title}>
-                  {i.title}
+                  <CatalogProduct title={i.title} />
                 </li>
               ))}
             </ul>
