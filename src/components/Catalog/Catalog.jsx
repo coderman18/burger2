@@ -19,8 +19,12 @@ export default function Catalog() {
           <div className={styles.wrap_list}>
             <ul className={styles.list}>
               {goodsList.map(i => (
-                <li className={styles.item} key={i.title}>
-                  <CatalogProduct title={i.title} />
+                <li 
+                  className={styles.item} 
+                  key={i.title}>
+                  <CatalogProduct 
+                    title={i.title} 
+                  />
                 </li>
               ))}
             </ul>
