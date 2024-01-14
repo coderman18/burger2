@@ -3,7 +3,7 @@ import OrderGoods from '../OrderGoods/OrderGoods'
 import { orderList } from '../../utils/orderList'
 import styles from './Order.module.css'
 
-
+console.log(orderList);
 export default function Order(props) {
   return (
     <div className={styles.order}>
@@ -16,7 +16,12 @@ export default function Order(props) {
 
             <div className={styles.wrap__list}>
               <ul className={styles.list}>
-                {orderList.map(i => <OrderGoods title={i} />)}
+                {orderList.map(i => 
+                  <OrderGoods 
+                  title={i} 
+                  key={i}
+                />
+                )}
               </ul>
 
               <div className={styles.total}>

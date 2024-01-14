@@ -18,10 +18,10 @@ export default function Catalog() {
 
           <div className={styles.wrap_list}>
             <ul className={styles.list}>
-              {goodsList.map(i => (
+              {goodsList.map((i, id) => (
                 <li 
                   className={styles.item} 
-                  key={i.title}>
+                  key={id}>
                   <CatalogProduct 
                     title={i.title} 
                   />
